@@ -2,7 +2,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>Jumpy Knight</title>
-<script type="text/javascript" src="js/processing.js"></script>
+<script type="text/javascript" src="processing.js"></script>
 </head>
 <body>
     <script type="text/processing">
@@ -27,12 +27,12 @@ void setup() {
   UpspearImg = loadImage("./images/upspear.png");
   DownspearImg = loadImage("./images/downspear.png");
   mainImg = loadImage("./images/mainscreen.png");
-  file = new SoundFile(this, "./images/mmMusic.mp3");
+  //file = new SoundFile(this, "./images/mmMusic.mp3");
   frameRate(35);
   size(600,800);
   fill(0);
   textSize(40);
-  file.play();
+  //file.play();
 }
 void draw() { 
   if(gamestate == 0) {
